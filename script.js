@@ -7,7 +7,7 @@ const countdownTimer = setInterval(() => {
   const now = new Date().getTime();
   
   // Find the distance between now and the countdown date
-  const distance = countdownDate - now;
+  const distance = countdownDate - now+10000;
   
   // Calculate the days, hours, minutes, and seconds
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
